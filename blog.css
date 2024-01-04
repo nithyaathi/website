@@ -1,0 +1,130 @@
+body
+{
+background-color: black;
+}
+.row
+{
+    display: grid;
+    gap: 20px;
+    grid-template-columns:  300px 1fr;
+    
+}
+.container1
+{
+  height: auto;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(27, 27, 27);
+}
+.submenu
+{
+    color: white;
+}
+
+.fa-envelope
+{
+    color: yellow;
+    font-size: 20px;
+    
+}
+.fa-mobile-notch
+{
+    color: yellow;
+    font-size: 20px;
+}
+.fa-calendar-days
+{
+    color: yellow;
+    font-size: 20px;
+}
+.fa-location-dot
+{
+    color: yellow;
+    font-size: 20px;
+}
+hr
+{
+    width: 240px;
+    color: rgb(36, 31, 31);
+    
+}
+.subject
+{
+    margin-left: 40px;
+}
+.img
+{
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 40%;
+    border-radius: 20px;
+
+}
+.container2
+{
+    
+  height: auto;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(27, 27, 27);
+  
+  
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 121, 113);
+    margin-left: 350px;
+    background-color: rgb(36, 33, 33);
+    
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family:  Arial, sans-serif;
+    
+}
+nav ul li a:hover
+{
+    
+    color: yellow;
+    background-color: rgb(27, 27, 27);
+}
+.jpg
+{
+    display: grid;
+    gap: 20px;
+    grid-template-columns:  420px 440px;
+    grid-template-rows: 280px 280px;
+}
+.two{
+background-color: rgb(26, 26, 34);
+    border-radius: 5px;
+    color: white;
+   align-items: center;
+   transition: transform 0.5s;
+}
+.ima
+{
+
+    border-radius: 10px;
+    
+}
